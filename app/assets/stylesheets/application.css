@@ -8,3 +8,14 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ /*
+ *= require_self
+ *= require cat_facts
+*/
+
+/* application.css */
+
+/* application.css */
+@import "cat_facts.css";
+    

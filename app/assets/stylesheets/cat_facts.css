@@ -1,38 +1,27 @@
-/* Fundo com gradiente azul */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #a8edea, #fed6e3); /* Azul claro e rosinha suave */
+  background: linear-gradient(135deg, #a3d5ff, #ffffff);
+  font-family: Arial, sans-serif;
   color: #333;
+  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* Container centralizado */
-.container {
-  text-align: center;
-  background: rgba(255, 255, 255, 0.85); /* fundo semitransparente */
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  max-width: 600px;
-}
-
-/* Título */
 h1 {
-  color: #1e3c72; /* azul escuro */
-  font-size: 2.8rem;
-  margin-bottom: 30px;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: #0077b6;
 }
 
-/* Caixa do fato */
 .fact-box {
-  background: linear-gradient(135deg, #89f7fe, #66a6ff); /* azul claro gradiente */
-  color: #fff;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #000000;
   padding: 25px;
   border-radius: 15px;
   margin-bottom: 25px;
@@ -41,7 +30,6 @@ h1 {
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* Botão */
 .btn {
   display: inline-block;
   padding: 12px 25px;
