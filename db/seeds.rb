@@ -7,3 +7,12 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+500.times do |id|
+    puts "Processando registro #{id}"
+    name = Faker::Creature::Cat.name 
+    description = Faker::Creature::Cat.registry
+    
+    Fact.create(title: name, description: description)
+end 
+

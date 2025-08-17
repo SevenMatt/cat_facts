@@ -1,11 +1,14 @@
-<%= stylesheet_link_tag "cat_facts", "data-turbo-track": "reload" %>
+
 
 <div class="container">
   <h1>🐾 Mamede Cat Facts 🐾</h1>
 
+  <% @cat_facts.each do |fact| %> 
   <div class="fact-box">
-    <p><%= @cat_fact %></p>
+    <p><%= fact.id %></p>
+    <p><%= fact.title %></p>
+    <p><%= fact.description %></p>
   </div>
-
+  <% end %>  
   <%= link_to "Gerar outro fato", root_path, class: "btn" %>
 </div>
